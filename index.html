@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar-body">
+      <img class="main-logo" src="img/logo.png" alt="LOGO" />
+      <input type="checkbox" id="check-bar" />
+      <label for="check-bar" id="menu-trigger"><i class="fas fa-bars"></i></label>
+      <ul class="navbar">
+        <li class="nav-item">
+          <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About</a>
+        </li>
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link" href="#blog-section">Blogs</a>
+          <div class="dd-wrapper">
+            <ul class="dd-navbar">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs4</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-section">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="banner-section">
+      <img class="bg-img" src="img/top-banner.png" alt="" />
+      <div class="upper-lay"></div>
+    </section>
+    <section class="card-section">
+      <div class="card-wrapper">
+        <div class="card">
+          <h3 class="title">Rahul</h3>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis illo veritatis suscipit rerum!</p>
+          <button class="btn">Click Me</button>
+        </div>
+        <div class="card">
+          <h3 class="title">Omkar</h3>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis illo veritatis suscipit rerum!</p>
+          <button class="btn">Click Me</button>
+        </div>
+        <div class="card">
+          <h3 class="title">Naveed</h3>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis illo veritatis suscipit rerum!</p>
+          <button class="btn">Click Me</button>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="container">
+        <div class="address-wraper">
+          <img src="img/undraw_contact_us_15o2.png" alt="" />
+        </div>
+        <form class="contact-form" action="post">
+          <h1>Contact Us</h1>
+          <input type="text" class="form-control" name="name" placeholder="Enter your Name" />
+          <input type="email" class="form-control" name="email" placeholder="Enter your Email" />
+          <input type="text" class="form-control" name="number" placeholder="Contact No" />
+          <textarea name="msg" class="form-control" placeholder="Message"></textarea>
+          <button class="btn" type="submit">Send Here</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
